@@ -52,6 +52,11 @@
     top: 00;
     width: 100%;
   }
+  .stickyBottom{
+    position: fixed;
+    bottom: 00;
+    width: 100%;
+  }
   
   @media screen and (max-width: 600px) {
     #myTopnav a:not(:first-child) {display: none;}
