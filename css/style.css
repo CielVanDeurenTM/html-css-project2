@@ -12,10 +12,15 @@
     text-align: center;
     margin-bottom: 0px;
   }
+
   h2{
     font-size: 40px;
   }
+  #accordionPanelsStayOpenExample{
+    z-index:0; 
+  }
   #myTopnav {
+    z-index:1; 
     overflow: hidden;
     background-color: #333;
   }
