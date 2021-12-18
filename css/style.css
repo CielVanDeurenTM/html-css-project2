@@ -1,4 +1,7 @@
 
+  :root{
+    --blue: #0B5ED7;
+  }
   body{
     background-color: lightslategray;
   }
@@ -11,6 +14,10 @@
     font-size: 70px;
     text-align: center;
     margin-bottom: 0px;
+  }
+  .header-2{
+    font-size: 60px;
+    text-align: center;
   }
 
   h2{
@@ -34,12 +41,12 @@
   }
 
   #myTopnav a:hover {
-    background-color: #11299481;
+    background-color: var(--blue);
     color: black;
   }
   
   #myTopnav a.active {
-    background-color: #112994;
+    background-color: var(--blue);
     color: white;
   }
   
@@ -60,6 +67,25 @@
     bottom: 00;
     width: 100%;
   }
+  .accordion-button,
+  .accordion-button:not(.collapsed){
+    background-color: var(--blue);
+    color: #f1f1f1;
+  }
+  .accordion-item{
+    background-color: #292F33;
+    color: #f1f1f1;
+  }
+  
+  .card{
+    background-color: #292F33;
+    color: #f1f1f1;
+  }
+  
+  
+  
+
+
   
   @media screen and (max-width: 600px) {
     #myTopnav a:not(:first-child) {display: none;}
