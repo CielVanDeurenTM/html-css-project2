@@ -15,18 +15,18 @@ function myFunction2() {
   }
 } 
 
+window.onload = myFunction3();
 window.onresize = function() {myFunction3()};
-window.onload = function() {myFunction3()};
 
-var footer = document.getElementById("footer") 
 
 function myFunction3(){
-  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+  var footer = document.getElementById("footer") 
+  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight)  {
     footer.classList.add("stickyBottom") 
   }
   else{
     footer.classList.remove("stickyBottom")
-  }  
+  } 
 }
 
 //responsive navbar
