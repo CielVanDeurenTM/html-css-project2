@@ -4,20 +4,44 @@
   }
   body{
     background-color: lightslategray;
+
   }
+  
   footer{
     background-color: #333;
   }
   .header {
-    background-color: #f1f1f1;
+    
+    width: 600px;
+    color: rgb(255, 253, 253);
     padding: 10px;
     font-size: 70px;
     text-align: center;
     margin-bottom: 0px;
   }
+  .header-text-background{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    background: rgba(158, 158, 158, 0.322);
+  }
+  .header-image{
+    background-image: url("/images/hero-image-min.jpg");
+    background-size: 100%;
+    
+    width: 7000px;
+    background-repeat: no-repeat;
+    
+  }
+  .blured {
+    box-shadow: 0 0 8px 8px rgba(158, 158, 158, 0.322);
+}
   .header-2{
     font-size: 60px;
     text-align: center;
+  }
+  .width-100{
+    width: 100%;
   }
 
   h2{
