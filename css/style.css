@@ -68,9 +68,13 @@
     width: 100%;
   }
   .accordion-button,
-  .accordion-button:not(.collapsed){
+  .accordion-button:not(.collapsed),
+  .accordion-button:hover,
+  .accordion-button:enabled
+  {
     background-color: var(--blue);
     color: #f1f1f1;
+    z-index:0; 
   }
   .accordion-item{
     background-color: #292F33;
