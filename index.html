@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="nl-be">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    
-
     <title>Home</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <header class="header header-image width-100">
         <h1 id="topContent" class="header header-text-background blured ">Ciel Van Deuren</h1>
@@ -28,48 +30,125 @@
             </a>
         </div>
     </nav>
-    <div>
-        <h2>Welkom</h2>
-        <article>
-               <p>Mijn naam is Ciel van deuren.</p> 
-               <img src="images/Ciel.jpg" alt="Foto van Ciel">
-                <p>Een industrieel/ huishoudelijk elektricien.</p> 
-                <p>En een EMS-onderhoudstechnieker.</p> 
-                <p>Momenteel ben ik programmatie aan het studeren aan thomas more hogeschool in lier.</p>
-                <p>Op deze website kunt u alles over mij en wat ik doe vinden.</p>
-        </article>
-    </div>
     <section>
-        <div>
-            <a href="contact.html">Contact</a> 
-        </div>
-        <div>
-            <a href="CV.html">CV</a>
-        </div>
-        <div>
-            <a href="ervaringen.html">Ervaringen</a>
-        </div>
-        <div>
-            <img src="images/boot 2.jpg" alt="Foto boot">  
-            <a href="Hobbies.html">Hobbies</a>
-        </div>
-        <div>
-            <a href="blog.html">Blog</a>
+        <h2 class="display-5 fw-bold header-2">Welkom</h2>
+
+        <div class="container py-3 jumbotron rounded-3">
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+
+                    <h2 class="fw-bold ">Mijn naam is Ciel van deuren.</h2>
+                    <p class="fs-4">Een industrieel/ huishoudelijk elektricien.
+                        <br>Een EMS-onderhoudstechnieker.
+                        <br>En binnenkort een programmeur.
+                        <br>Momenteel ben ik programmatie aan het studeren aan thomas more hogeschool in lier.
+                    </p>
+                </div>
+                <div class="col-md-12 col-lg-4 col-sm-12">
+                    <img id="profilepic" class="px-3 py-3" src="images/ciel_head.jpg" alt="Foto van Ciel">
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <a class="btn btn-primary px-5 py-3" href="contact.html"> Hire me now</a>
+                </div>
+            </div>
         </div>
     </section>
+
+    
+    <section class="container align-center mb-5 pb-5">
+        <h2 class="display-5 fw-bold header-2 mt-5">werkgerichte info</h2>
+        <div class="row">
+
+            <div class="col-md-4 col-sm-12 px-3 my-3">
+
+                <div class="card my-4 height-100">
+                    <h5 class="card-title pt-5">Contact</h5>
+                    <i class="bi bi-person-lines-fill height-100 size-80px"></i>
+                    <div class="card-body">
+                        <p class="card-text">Hier vindt u mijn contact info en een simple formulier om gemakelijk en
+                            snel contact op te nemen</p>
+                        <a href="contact.html" class="btn btn-primary">Contact me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 px-3 my-3">
+
+                <div class="card my-4 height-100">
+                    <h5 class="card-title pt-5">Curriculum vitae</h5>
+                    <i class="bi bi-file-earmark-person height-100 size-80px"></i>
+                    <div class="card-body">
+                        <p class="card-text">Hier vindt u mijn cv en info over de skills die ik heb</p>
+                        <a href="CV.html" class="btn btn-primary">CV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 px-3 my-3">
+
+                <div class="card my-4 height-100">
+                    <h5 class="card-title pt-5">Ervaringen</h5>
+                    <i class="bi bi-clipboard-check height-100 size-80px"></i>
+                    <div class="card-body">
+                        <p class="card-text">Hier komt u meer te weten over mijn stages en vorige werkplekken</p>
+                        <a href="ervaringen.html" class="btn btn-primary">Ervaringen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mb-5">
+        <h2 class="display-5 fw-bold header-2 mt-5">Persoongerichte info</h2>
+        <div class="card my-4">
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-4">
+                        <h5 class="card-title">Hobbies</h5>
+                        <p class="card-text">Hier vindt u informatie over wie ik be en waar mijn intresses liggen</p>
+                        <a href="Hobbies.html" class="btn btn-primary">Hobbies</a>
+                    </div>
+                    <div class="col-lg-8 col-md-8 ">
+                        <div>
+                            <img class="mx-2 float-end mt-2" src="images/boot 3.jpg" height="auto" width="35%" alt="Foto boot">
+                        </div>
+                        <div>
+                            <img class="mx-2 float-end mt-2 " src="images/Pcb.png" height="auto" width="21%" alt="foto pcb">
+                        </div>
+                        <div>
+                            <img class="mx-2 float-end mt-2 " src="images/schaakbord.jpg" height="auto" width="23%" alt="schaakbord">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card my-4">
+           
+            <div class="card-body">
+                <h5 class="card-title">Blog</h5>
+                <p class="card-text">Hier kan u vinder waar ik de laateste tijd mee bezig ben</p>
+                <a href="blog.html" class="btn btn-primary">Blog</a>
+            </div>
+        </div>
+    </section>
+
     <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center pb-4 pt-3">
         <div class="col-md-4 d-flex align-items-center ">
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"></a>
-            <span class="text-muted ">© CielVanDeuren</span>
+            <span class="text-muted ">&copy; CielVanDeuren</span>
         </div>
-        
+
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-5">
-            <li class="ms-3"><a class="text-muted" href="https://twitter.com/CielVanDeuren"><i class="bi bi-twitter"></i></a></li>
-            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/ciel-van-deuren-a6095b226/"><i class="bi bi-linkedin"></i></a></li>
-            <li class="ms-3"><a class="text-muted" href="https://github.com/CielVanDeurenTM"><i class="bi bi-github"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://twitter.com/CielVanDeuren"><i
+                        class="bi bi-twitter"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/ciel-van-deuren-a6095b226/"><i
+                        class="bi bi-linkedin"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://github.com/CielVanDeurenTM"><i
+                        class="bi bi-github"></i></a></li>
         </ul>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="js/java.js"></script>
 </body>
+
 </html>
