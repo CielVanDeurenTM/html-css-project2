@@ -40,9 +40,9 @@
     background: rgba(158, 158, 158, 0.322);
   }
   .header-image{
-    background-image: url("/images/hero-image-min.jpg");
+    background-image: url("../images/hero-image-min.jpg");
     background-size: 100%;
-    
+    height: auto;
     width: 7000px;
     background-repeat: no-repeat;
     
