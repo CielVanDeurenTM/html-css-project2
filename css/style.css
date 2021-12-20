@@ -67,7 +67,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-}
+  }
 
 
   h2{
@@ -78,6 +78,9 @@
     z-index:1; 
     overflow: hidden;
     background-color: #333;
+  }
+  .height-20{
+    height: 20%;
   }
   
   #myTopnav a {
