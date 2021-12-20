@@ -24,6 +24,10 @@
   .align-center{
     text-align: center;
   }
+  .img-20{
+    height:auto; 
+    width:20%;
+  }
   .header {
     
     width: 600px;
@@ -40,7 +44,7 @@
     background: rgba(158, 158, 158, 0.322);
   }
   .header-image{
-    background-image: url("../images/hero-image-min.jpg");
+    background-image: url("..git/images/hero-image-min.jpg");
     background-size: 100%;
     height: auto;
     width: 7000px;
