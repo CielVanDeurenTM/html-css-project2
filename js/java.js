@@ -18,8 +18,6 @@ function myFunction2() {
 window.onload = myFunction3();
 window.onresize = function() {myFunction3()};
 
-var delayInMilliseconds = 100; //0.1s
-
 
 function myFunction3(){
   var footer = document.getElementById("footer") 
